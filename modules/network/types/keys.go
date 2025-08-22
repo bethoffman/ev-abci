@@ -22,7 +22,7 @@ const (
 
 // KVStore key prefixes
 var (
-	// todo (Alex): use numbers instaed of verbose keyse?
+	// todo (Alex): use numbers instead of verbose keys?
 	ValidatorIndexPrefix        = collections.NewPrefix("validator_index")
 	ValidatorPowerPrefix        = collections.NewPrefix("validator_power")
 	AttestationBitmapPrefix     = collections.NewPrefix("attestation_bitmap")
